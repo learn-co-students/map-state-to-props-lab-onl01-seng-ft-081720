@@ -21,7 +21,7 @@ class UserInput extends Component {
 
   render() {
     return(
-      <form onSubmit={this.handleOnSubmit}>
+      <form onSubmit={this.handleOnSubmit.bind(this)}>
         <p>
           <input
             type="text"
