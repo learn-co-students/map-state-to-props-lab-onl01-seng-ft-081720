@@ -1,3 +1,5 @@
+import { createStore } from 'redux'
+
 export default function manageUsers(state = {
   users: [],
 }, action){
@@ -13,3 +15,4 @@ export default function manageUsers(state = {
       return state;
   }
 };
+
